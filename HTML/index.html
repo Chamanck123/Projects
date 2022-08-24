@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="palindrome.js"></script> -->
+    <!-- <script src="prime.js"></script> -->
+    <!-- <script src="first_10_nat_nos.js"></script> -->
+    <script src="counter.js"></script>
+    <title>Counter</title>
+</head>
+<body>
+    <div>
+    <img src="image/Landscape.jpg" alt="nil" style="width:fit-content">
+    <H1 style="position:absolute;left:701px;top: 200px;">Counter</H1>
+    <p id="disp" style="text-align:center;"></p>
+    <button id="up" onclick="upCount()">UpCount</button>
+    <button id="dn" onclick="downCount()">DownCount</button>
+    </div>
+    <style>
+       #disp{
+        position: absolute;
+        top:190px;
+        left: 711px;
+        font-family: 'Times New Roman';
+        font-style: italic;
+        font-size: 100px;
+        /* border: 2px solid black;
+        width:500px;
+        height: 29px;  */
+        /* padding-top:20px ;
+        padding-left:200px ;
+        padding-right:200px ;
+        padding-bottom:20px ; */
+       }    
+       #up{
+        position: absolute;
+        top:452px;
+        left: 659px;
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        padding-top:20px ;
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-bottom:20px ;
+    }
+    #up:active{
+        background-color: white;
+        color: blue;
+        cursor: pointer;
+    }
+    #dn{
+        position: absolute;
+        top:452px;
+        left: 762px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        padding-top:20px ;
+        padding-left:20px ;
+        padding-right:20px ;
+        padding-bottom:20px ;    
+    }
+    #dn:active{
+        background-color: white;
+        color: red;
+        cursor: pointer;
+    }
+    </style>
+</body>
+</html>
